@@ -16,7 +16,7 @@ def modify(x):
 lst = [0]
 modify(lst)
 print(lst)
-
+print("*"*10)
 def func():
     try:
         return "A"
@@ -24,3 +24,6 @@ def func():
         return "C"
 
 print(func())
+
+for _ in range (10):
+    print(_)
